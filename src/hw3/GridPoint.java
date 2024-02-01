@@ -7,9 +7,19 @@ package hw3;
  */
 public class GridPoint implements Comparable<GridPoint>{
 
-	public int compareTo(GridPoint that)
-	{
-		// TODO: make this better, must match equals()
+	private int x;
+	private int y;
+	
+	public GridPoint(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+
+	@Override
+	public int compareTo(GridPoint o) {
+		// TODO Auto-generated method stub
 		return 0;
 	}
+	
+
 }

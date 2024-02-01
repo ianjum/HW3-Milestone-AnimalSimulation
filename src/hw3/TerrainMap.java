@@ -17,11 +17,17 @@ public class TerrainMap implements Drawable {
 	// Constructor to read from file
 	public TerrainMap(String filename) {
 		// TODO: Read the map specified by `filename` and add
-		// TerrainTile objects (based on the terrain type specified by the map)
-		// to theTiles.œ
+		// TerrainTile objects (based on the terrain type specified by the map) to theTiles
+		// Do it with a bufferedReader line by line
+				// Then a String Tokenizer
+				// Could probably use a Scanner as well
 		
 		// TODO: make sure you set gridWidth and gridHeight static data members when you 
 		// read the map.
+		
+		// Now read the info (row by row)
+				// Since 0,0 is in lower corner in DuDraw
+				//   read the heights in upside down
 	}
 	
 	public void draw(Draw duDwin) {
